@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        SERVER_IP      = '52.20.45.174'
+        SERVER_IP      = '52.86.22.61'
         SSH_CREDENTIAL = 'node-app-key'
         REPO_URL       = 'https://github.com/iamSonaliGhuge/node-app-devops22.git'
         BRANCH         = 'main'
